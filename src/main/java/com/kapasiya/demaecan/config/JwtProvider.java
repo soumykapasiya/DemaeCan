@@ -49,6 +49,6 @@ public class JwtProvider
             auth.add(authority.getAuthority());
         }
 
-        return String.join(",", auth);
+        return String.join(" ", auth);
     }
 }

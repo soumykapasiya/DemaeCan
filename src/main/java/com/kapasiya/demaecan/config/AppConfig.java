@@ -44,7 +44,7 @@ public class AppConfig
                 CorsConfiguration cfg = new CorsConfiguration();
                 cfg.setAllowedOrigins(Arrays.asList(
                         "https://zosh-food.vercel.app",
-                        "http://localhost:8090"
+                        "http://localhost:8080"
                 ));
 
                 cfg.setAllowedMethods(Collections.singletonList("*"));
